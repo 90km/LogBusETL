@@ -26,5 +26,5 @@ hs_err_pid*
 target/ 
 .idea/
 .svn/
-.idea/
+.idea/*
 
