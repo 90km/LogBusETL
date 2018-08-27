@@ -23,8 +23,8 @@
 hs_err_pid*
 
 # directory
-/target/ 
-/.idea/
-/.svn/
+target/ 
+.idea/
+.svn/
 .idea/workspace.xml
 
