@@ -1,0 +1,38 @@
+package util;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/**
+ * 日期转换工具.
+ */
+public class DateUtil {
+
+    /**
+     * 秒级的时间戳转换成日期格式字符串.
+     *
+     * @param seconds 精确到秒的字符串
+     */
+    public static String timeStamp2Date(String seconds) {
+        if (seconds == null || seconds.isEmpty() || seconds.equals("null")) {
+            return "";
+        }
+        String format = "yyyy-MM-dd HH:mm:ss";
+        SimpleDateFormat sdf = new SimpleDateFormat(format);
+        return sdf.format(new Date(Long.valueOf(seconds + "000")));
+    }
+
+    /**
+     * 毫秒级的时间戳转换成日期格式字符串.
+     *
+     * @param seconds 精确到毫秒的字符串
+     */
+    public static String mcrotimeStamp2Date(String seconds) {
+        if (seconds == null || seconds.isEmpty() || seconds.equals("null")) {
+            return "";
+        }
+        String format = "yyyy-MM-dd HH:mm:ss.SSS";
+        SimpleDateFormat sdf = new SimpleDateFormat(format);
+        return sdf.format(new Date(Long.valueOf(seconds)));
+    }
+}

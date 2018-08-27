@@ -1,0 +1,70 @@
+import etl.AccountConvert;
+import etl.ChargeConvert;
+import etl.ConsumeConvert;
+import etl.CreateConvert;
+import etl.EventConvert;
+import etl.IncomeConvert;
+import etl.ItemConvert;
+import etl.LevelConvert;
+import etl.LoginConvert;
+import etl.OnlineConvert;
+import etl.PropsConvert;
+import etl.VipConvert;
+import util.ConvertBase;
+
+/**
+ * LogBusETL Project Main Class.
+ */
+public class Convert {
+
+    /**
+     * 主函数入口.
+     *
+     * @param args 一共要传入三个参数 清洗的日志事件类型、输入的日志数据源、输出的日志数据路径
+     */
+    public static void main(String[] args) {
+
+        String convert = args[0];
+        String input = args[1];
+        String output = args[2];
+
+        if (args.length != 3) {
+            System.out.println("Usage: java -jar Convert.jar <eventName> <input> <output>");
+            System.exit(-1);
+        }
+
+        ConvertBase event = null;
+
+        // 按照输入参数 选择不同的ETL类型
+        try {
+            if (convert.equals("account")) {
+                event = new AccountConvert(input, output);
+            } else if (convert.equals("charge")) {
+                event = new ChargeConvert(input, output);
+            } else if (convert.equals("consume")) {
+                event = new ConsumeConvert(input, output);
+            } else if (convert.equals("create")) {
+                event = new CreateConvert(input, output);
+            } else if (convert.equals("event")) {
+                event = new EventConvert(input, output);
+            } else if (convert.equals("income")) {
+                event = new IncomeConvert(input, output);
+            } else if (convert.equals("item")) {
+                event = new ItemConvert(input, output);
+            } else if (convert.equals("level")) {
+                event = new LevelConvert(input, output);
+            } else if (convert.equals("login")) {
+                event = new LoginConvert(input, output);
+            } else if (convert.equals("online")) {
+                event = new OnlineConvert(input, output);
+            } else if (convert.equals("props")) {
+                event = new PropsConvert(input, output);
+            } else if (convert.equals("vip")) {
+                event = new VipConvert(input, output);
+            }
+            event.jsonConvert();
+        } catch (Exception e1) {
+            e1.printStackTrace();
+        }
+    }
+}

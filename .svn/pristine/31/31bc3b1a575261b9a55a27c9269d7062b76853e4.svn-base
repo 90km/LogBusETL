@@ -1,0 +1,84 @@
+package util;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.util.Date;
+import java.util.TimeZone;
+
+/**
+ * 日期转换工具.
+ */
+public class DateUtil {
+
+    private static Date parse;
+    private static Date daylightSavingTimeBegin;
+    private static Date daylightSavingTimeEnd;
+    private static String format = "yyyy-MM-dd HH:mm:ss";
+    private static SimpleDateFormat sdf = new SimpleDateFormat(format);
+
+    // 对于2018年北美中部时区的夏时令的分布情况，对夏时令开始及结束时间进行了设置.
+    static {
+        try {
+            daylightSavingTimeBegin = sdf.parse("2018-03-11 02:00:00");
+            daylightSavingTimeEnd = sdf.parse("2018-11-04 02:00:00");
+        } catch (ParseException e1) {
+            e1.printStackTrace();
+        }
+    }
+
+    /**
+     * 秒级的时间戳转换成日期格式字符串.
+     *
+     * @param seconds 精确到秒的字符串
+     */
+    public static String timeStamp2Date(String seconds) throws ParseException {
+        if (seconds == null || seconds.isEmpty() || seconds.equals("null")) {
+            return "";
+        }
+        String time = sdf.format(new Date(Long.valueOf(seconds + "000")));
+        parse = sdf.parse(time);
+
+        // 按照服务器的传入时间判断是否处于夏时令时间，再来设置时区
+        if (!(parse.after(daylightSavingTimeBegin) && parse.before(daylightSavingTimeEnd))) {
+            sdf.setTimeZone(TimeZone.getTimeZone("GMT-6:00"));
+        } else {
+            sdf.setTimeZone(TimeZone.getTimeZone("GMT-5:00"));
+        }
+        parse = sdf.parse(time);
+        sdf.setTimeZone(TimeZone.getTimeZone("GMT+8:00"));
+        return sdf.format(parse);
+    }
+
+    /**
+     * 毫秒级的时间戳转换成日期格式字符串.
+     *
+     * @param seconds 精确到毫秒的字符串
+     */
+    public static String mcrotimeStamp2Date(String seconds) {
+        if (seconds == null || seconds.isEmpty() || seconds.equals("null")) {
+            return "";
+        }
+        String format = "yyyy-MM-dd HH:mm:ss.SSS";
+        SimpleDateFormat sdf = new SimpleDateFormat(format);
+        return sdf.format(new Date(Long.valueOf(seconds)));
+    }
+
+    /**
+     * 转换时区.
+     *
+     * @param date 输入的是服务器的时区
+     * @return 返回的是东八区的时间
+     */
+    public static String convertTimeZone(String date) throws ParseException {
+        parse = sdf.parse(date);
+        if (!(parse.after(daylightSavingTimeBegin) && parse.before(daylightSavingTimeEnd))) {
+            sdf.setTimeZone(TimeZone.getTimeZone("GMT-6:00"));
+        } else {
+            sdf.setTimeZone(TimeZone.getTimeZone("GMT-5:00"));
+        }
+        parse = sdf.parse(date);
+        sdf.setTimeZone(TimeZone.getTimeZone("GMT+8:00"));
+        return sdf.format(parse);
+    }
+}

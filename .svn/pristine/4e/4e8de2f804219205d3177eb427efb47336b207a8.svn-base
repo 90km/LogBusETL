@@ -1,0 +1,286 @@
+Wed Jun  6 02:03:50 GMT 2018    **** deal login log ****
+############ 2018-06-06 02:03:50 login事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/login/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/login/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (8418749 bytes in 0.2 seconds, 50.38 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/login/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (8671372 bytes in 0.3 seconds, 32.25 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/login/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (9363355 bytes in 0.2 seconds, 44.38 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/login/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (8685276 bytes in 0.2 seconds, 48.24 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/login/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (8802068 bytes in 0.2 seconds, 50.26 MB/s)
+log.eu.2018-06_login
+log.eu.2018-06_login_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/login/2018/06/* >log.eu.2018-06_login
+---> java -jar login /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_login log.eu.2018-06_login_cov
+---> rm 06 log.eu.2018-06_login
+############ 2018-06-06 02:04:12 login事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 02:04:12 GMT 2018    **** deal account log ****
+############ 2018-06-06 02:04:12 account事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/account/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/account/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (498421 bytes in 0.2 seconds, 3.07 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/account/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (587843 bytes in 0.1 seconds, 5.58 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/account/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (585791 bytes in 0.1 seconds, 8.24 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/account/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (459002 bytes in 0.1 seconds, 5.87 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/account/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (433425 bytes in 0.0 seconds, 8.80 MB/s)
+log.eu.2018-06_account
+log.eu.2018-06_account_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/account/2018/06/* >log.eu.2018-06_account
+---> java -jar account /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_account log.eu.2018-06_account_cov
+---> rm 06 log.eu.2018-06_account
+############ 2018-06-06 02:04:15 account事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 02:04:15 GMT 2018    **** deal charge log ****
+############ 2018-06-06 02:04:15 charge事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/charge/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/charge/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (100005 bytes in 0.3 seconds, 340.94 kB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/charge/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (102423 bytes in 0.1 seconds, 1469.71 kB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/charge/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (100854 bytes in 0.1 seconds, 1732.67 kB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/charge/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (88160 bytes in 0.1 seconds, 1312.78 kB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/charge/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (97979 bytes in 0.1 seconds, 1639.33 kB/s)
+log.eu.2018-06_charge
+log.eu.2018-06_charge_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/charge/2018/06/* >log.eu.2018-06_charge
+---> java -jar charge /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_charge log.eu.2018-06_charge_cov
+---> rm 06 log.eu.2018-06_charge
+############ 2018-06-06 02:04:17 charge事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 02:04:17 GMT 2018    **** deal consume log ****
+############ 2018-06-06 02:04:17 consume事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/consume/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/consume/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (109573951 bytes in 1.4 seconds, 76.23 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/consume/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (113366911 bytes in 1.4 seconds, 77.88 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/consume/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (125594595 bytes in 1.5 seconds, 80.97 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/consume/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (119737320 bytes in 1.5 seconds, 75.43 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/consume/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (125642080 bytes in 1.6 seconds, 73.79 MB/s)
+log.eu.2018-06_consume
+log.eu.2018-06_consume_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/consume/2018/06/* >log.eu.2018-06_consume
+---> java -jar consume /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_consume log.eu.2018-06_consume_cov
+---> rm 06 log.eu.2018-06_consume
+############ 2018-06-06 02:09:17 consume事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 02:09:17 GMT 2018    **** deal create log ****
+############ 2018-06-06 02:09:17 create事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/create/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/create/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (498401 bytes in 0.1 seconds, 3.71 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/create/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (587829 bytes in 0.1 seconds, 7.82 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/create/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (585783 bytes in 0.2 seconds, 3.41 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/create/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (458991 bytes in 0.1 seconds, 7.54 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/create/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (433408 bytes in 0.1 seconds, 6.47 MB/s)
+log.eu.2018-06_create
+log.eu.2018-06_create_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/create/2018/06/* >log.eu.2018-06_create
+---> java -jar create /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_create log.eu.2018-06_create_cov
+---> rm 06 log.eu.2018-06_create
+############ 2018-06-06 02:09:21 create事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 02:09:21 GMT 2018    **** deal event log ****
+############ 2018-06-06 02:09:21 event事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (538180121 bytes in 5.9 seconds, 87.56 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (547608789 bytes in 7.1 seconds, 73.18 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (576118993 bytes in 7.2 seconds, 76.45 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/03/2018-06-03_1.gz' -> './06/03/2018-06-03_1.gz' (11559021 bytes in 0.3 seconds, 33.53 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (571867051 bytes in 9.9 seconds, 55.15 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (580374518 bytes in 9.4 seconds, 58.60 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/05/2018-06-05_1.gz' -> './06/05/2018-06-05_1.gz' (16540993 bytes in 0.3 seconds, 55.77 MB/s)
+log.eu.2018-06_event
+log.eu.2018-06_event_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/* >log.eu.2018-06_event
+---> java -jar event /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_event log.eu.2018-06_event_cov
+---> rm 06 log.eu.2018-06_event
+############ 2018-06-06 02:29:52 event事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 02:29:52 GMT 2018    **** deal income log ****
+############ 2018-06-06 02:29:52 income事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/income/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/income/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (151751435 bytes in 1.7 seconds, 83.44 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/income/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (146579299 bytes in 1.7 seconds, 82.10 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/income/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (156385320 bytes in 2.1 seconds, 71.63 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/income/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (158478431 bytes in 2.0 seconds, 73.89 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/income/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (165843901 bytes in 5.0 seconds, 31.47 MB/s)
+log.eu.2018-06_income
+log.eu.2018-06_income_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/income/2018/06/* >log.eu.2018-06_income
+---> java -jar income /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_income log.eu.2018-06_income_cov
+---> rm 06 log.eu.2018-06_income
+############ 2018-06-06 02:36:43 income事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 02:36:43 GMT 2018    **** deal item log ****
+############ 2018-06-06 02:36:43 item事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/item/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/item/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (215034204 bytes in 2.2 seconds, 94.00 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/item/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (212001414 bytes in 2.2 seconds, 91.84 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/item/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (228322330 bytes in 2.6 seconds, 84.71 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/item/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (225163395 bytes in 2.7 seconds, 80.58 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/item/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (237762980 bytes in 2.9 seconds, 78.59 MB/s)
+log.eu.2018-06_item
+log.eu.2018-06_item_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/item/2018/06/* >log.eu.2018-06_item
+---> java -jar item /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_item log.eu.2018-06_item_cov
+---> rm 06 log.eu.2018-06_item
+############ 2018-06-06 02:53:16 item事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 02:53:16 GMT 2018    **** deal level log ****
+############ 2018-06-06 02:53:16 level事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/level/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/level/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (3470820 bytes in 0.1 seconds, 32.97 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/level/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (4203135 bytes in 0.1 seconds, 32.41 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/level/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (4664251 bytes in 0.1 seconds, 33.68 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/level/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (3912616 bytes in 0.1 seconds, 35.75 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/level/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (3865610 bytes in 0.1 seconds, 32.11 MB/s)
+log.eu.2018-06_level
+log.eu.2018-06_level_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/level/2018/06/* >log.eu.2018-06_level
+---> java -jar level /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_level log.eu.2018-06_level_cov
+---> rm 06 log.eu.2018-06_level
+############ 2018-06-06 02:53:26 level事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 02:53:26 GMT 2018    **** deal online log ****
+############ 2018-06-06 02:53:26 online事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/online/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/online/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (397245 bytes in 0.1 seconds, 5.16 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/online/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (396152 bytes in 0.1 seconds, 5.74 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/online/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (399421 bytes in 0.1 seconds, 5.53 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/online/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (399267 bytes in 0.1 seconds, 5.22 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/online/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (408805 bytes in 0.0 seconds, 9.13 MB/s)
+log.eu.2018-06_online
+log.eu.2018-06_online_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/online/2018/06/* >log.eu.2018-06_online
+---> java -jar online /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_online log.eu.2018-06_online_cov
+---> rm 06 log.eu.2018-06_online
+############ 2018-06-06 02:53:34 online事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 02:53:34 GMT 2018    **** deal props log ****
+############ 2018-06-06 02:53:34 props事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/props/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/props/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (52429593 bytes in 0.6 seconds, 83.49 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/props/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (56434339 bytes in 0.7 seconds, 76.91 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/props/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (63259108 bytes in 0.7 seconds, 85.04 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/props/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (58069034 bytes in 0.8 seconds, 71.63 MB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/props/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (61094851 bytes in 0.7 seconds, 82.98 MB/s)
+log.eu.2018-06_props
+log.eu.2018-06_props_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/props/2018/06/* >log.eu.2018-06_props
+---> java -jar props /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_props log.eu.2018-06_props_cov
+---> rm 06 log.eu.2018-06_props
+############ 2018-06-06 02:56:48 props事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 02:56:48 GMT 2018    **** deal vip log ****
+############ 2018-06-06 02:56:48 vip事件在2018-06的数据清洗及推送开始 ###############
+---> s3cmd get -fr s3://kp-aws-logs-eu/kp-logs/eu/vip/2018/06/*
+download: 's3://kp-aws-logs-eu/kp-logs/eu/vip/2018/06/01/2018-06-01_0.gz' -> './06/01/2018-06-01_0.gz' (71049 bytes in 0.0 seconds, 1807.57 kB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/vip/2018/06/02/2018-06-02_0.gz' -> './06/02/2018-06-02_0.gz' (71852 bytes in 0.1 seconds, 767.72 kB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/vip/2018/06/03/2018-06-03_0.gz' -> './06/03/2018-06-03_0.gz' (71938 bytes in 0.1 seconds, 1239.39 kB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/vip/2018/06/04/2018-06-04_0.gz' -> './06/04/2018-06-04_0.gz' (62552 bytes in 0.1 seconds, 531.82 kB/s)
+download: 's3://kp-aws-logs-eu/kp-logs/eu/vip/2018/06/05/2018-06-05_0.gz' -> './06/05/2018-06-05_0.gz' (69008 bytes in 0.0 seconds, 2.13 MB/s)
+log.eu.2018-06_vip
+log.eu.2018-06_vip_cov
+---> gzip -dcr s3://kp-aws-logs-eu/kp-logs/eu/vip/2018/06/* >log.eu.2018-06_vip
+---> java -jar vip /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06_vip log.eu.2018-06_vip_cov
+---> rm 06 log.eu.2018-06_vip
+############ 2018-06-06 02:56:51 vip事件在2018-06的数据清洗及推送完成 ###############
+Wed Jun  6 18:00:01 GMT 2018    **** deal login log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/login/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 1]
+   65536 of 9758728     0% in    0s   806.47 kB/s 9758728 of 9758728   100% in    0s    65.00 MB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/login/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_login
+---> java -jar login /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_login log.eu.2018-06-06_login_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_login
+Wed Jun  6 18:00:07 GMT 2018    **** deal account log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/account/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 1]
+  65536 of 425194    15% in    0s   838.82 kB/s 425194 of 425194   100% in    0s     5.01 MB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/account/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_account
+---> java -jar account /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_account log.eu.2018-06-06_account_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_account
+Wed Jun  6 18:00:08 GMT 2018    **** deal charge log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/charge/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 1]
+ 65536 of 93989    69% in    0s   602.63 kB/s 93989 of 93989   100% in    0s   859.05 kB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/charge/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_charge
+---> java -jar charge /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_charge log.eu.2018-06-06_charge_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_charge
+Wed Jun  6 18:00:09 GMT 2018    **** deal consume log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/consume/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 1]
+     65536 of 126305184     0% in    0s   655.93 kB/s 109510656 of 126305184    86% in    1s    95.08 MB/s 126305184 of 126305184   100% in    1s    88.11 MB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/consume/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_consume
+---> java -jar consume /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_consume log.eu.2018-06-06_consume_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_consume
+Wed Jun  6 18:00:58 GMT 2018    **** deal create log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/create/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 1]
+  65536 of 425188    15% in    0s   811.35 kB/s 425188 of 425188   100% in    0s     4.51 MB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/create/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_create
+---> java -jar create /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_create log.eu.2018-06-06_create_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_create
+Wed Jun  6 18:00:59 GMT 2018    **** deal event log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 2]
+     65536 of 582019706     0% in    0s   671.37 kB/s 109379584 of 582019706    18% in    1s    95.21 MB/s 209059840 of 582019706    35% in    2s    95.13 MB/s 303824896 of 582019706    52% in    3s    93.58 MB/s 409534464 of 582019706    70% in    4s    95.33 MB/s 504430592 of 582019706    86% in    5s    93.49 MB/s 582019706 of 582019706   100% in    5s    95.33 MB/s  done
+download: 's3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/06/2018-06-06_1.gz' -> './2018-06-06_1.gz'  [2 of 2]
+    65536 of 28675315     0% in    0s   536.28 kB/s 28675315 of 28675315   100% in    0s    86.77 MB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/event/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_event
+---> java -jar event /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_event log.eu.2018-06-06_event_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_event
+Wed Jun  6 18:05:10 GMT 2018    **** deal income log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/income/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 1]
+     65536 of 168520596     0% in    0s   428.24 kB/s 114753536 of 168520596    68% in    1s    95.18 MB/s 168520596 of 168520596   100% in    1s    94.21 MB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/income/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_income
+---> java -jar income /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_income log.eu.2018-06-06_income_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_income
+Wed Jun  6 18:06:29 GMT 2018    **** deal item log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/item/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 1]
+     65536 of 237614441     0% in    0s   418.31 kB/s 100728832 of 237614441    42% in    1s    83.29 MB/s 215089152 of 237614441    90% in    2s    95.24 MB/s 237614441 of 237614441   100% in    3s    74.75 MB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/item/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_item
+---> java -jar item /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_item log.eu.2018-06-06_item_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_item
+Wed Jun  6 18:09:52 GMT 2018    **** deal level log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/level/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 1]
+   65536 of 3818152     1% in    0s   595.76 kB/s 3818152 of 3818152   100% in    0s    24.92 MB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/level/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_level
+---> java -jar level /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_level log.eu.2018-06-06_level_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_level
+Wed Jun  6 18:09:56 GMT 2018    **** deal online log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/online/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 1]
+  65536 of 416814    15% in    0s  1457.99 kB/s 416814 of 416814   100% in    0s     7.64 MB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/online/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_online
+---> java -jar online /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_online log.eu.2018-06-06_online_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_online
+Wed Jun  6 18:09:59 GMT 2018    **** deal props log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/props/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 1]
+    65536 of 62447680     0% in    0s   792.98 kB/s 62447680 of 62447680   100% in    0s    95.05 MB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/props/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_props
+---> java -jar props /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_props log.eu.2018-06-06_props_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_props
+Wed Jun  6 18:10:37 GMT 2018    **** deal vip log ****
+First delete 2018-06-06_*.gz
+rm: cannot remove ‘2018-06-06_*.gz’: No such file or directory
+download: 's3://kp-aws-logs-eu/kp-logs/eu/vip/2018/06/06/2018-06-06_0.gz' -> './2018-06-06_0.gz'  [1 of 1]
+ 65536 of 66936    97% in    0s  1570.51 kB/s 66936 of 66936   100% in    0s  1595.68 kB/s  done
+---> s3cmd get --force s3://kp-aws-logs-eu/kp-logs/eu/vip/2018/06/06/*
+---> gzip -dc 2018-06-06_*.gz >log.eu.2018-06-06_vip
+---> java -jar vip /home/centos/logbus/jars/LogBusETL.jar log.eu.2018-06-06_vip log.eu.2018-06-06_vip_cov
+---> rm 2018-06-06_*.gz log.eu.2018-06-06_vip
+
+Wed Jun  6 19:00:01 GMT 2018    **** move convert file to logbuslog directory ****
+---> mv log.eu.2018-06-05_*_cov /data/logbuslog
+
+Thu Jun  7 00:54:53 GMT 2018    **** move convert file to logbuslog directory ****
+---> mv log.eu.2018-06-07_*_cov /data/logbuslog

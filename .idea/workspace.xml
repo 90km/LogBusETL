@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LogBusETL:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="137f820a-f119-4665-9027-e76043faded1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/LogBusETL.jar" beforeDir="false" afterPath="$PROJECT_DIR$/LogBusETL.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/etl/BaseConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/etl/BaseConvert.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/" />
+    <ignored path="LogBusETL.iml" />
+    <ignored path="src/test/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.18.6" />
+      </map>
+    </option>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LogBusETL" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BaseConvert.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/etl/BaseConvert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountConvert.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/etl/AccountConvert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;sid&quot;:1001</find>
+      <find>&quot;sid&quot;:1003</find>
+      <find>&quot;sid&quot;:1004</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/json/2018-04-16_account" />
+        <option value="$PROJECT_DIR$/src/json/2018-04-16_account_cov" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/ItemConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/VipConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/LevelConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/EventConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/ChargeConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/CreateConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/IncomeConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/ConsumeConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/AccountConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/PropsConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/OnlineConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/LoginlConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/LoginConvert.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DateTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DateTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/DateUtil.java" />
+        <option value="$PROJECT_DIR$/scripts/na/EventDaily.sh" />
+        <option value="$PROJECT_DIR$/scripts/na/EventDailyHistory.sh" />
+        <option value="$PROJECT_DIR$/scripts/na/templateHistory.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/Convert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etl/BaseConvert.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="LogBusETL" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="265" />
+    <option name="y" value="123" />
+    <option name="width" value="1783" />
+    <option name="height" value="1128" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LogBusETL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogBusETL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogBusETL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogBusETL" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogBusETL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogBusETL" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="eu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogBusETL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogBusETL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogBusETL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogBusETL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogBusETL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogBusETL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogBusETL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogBusETL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LogBusETL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogBusETL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="etl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="logbusetl" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\source-code\IdeaProjects\LogBusETL\src\json" />
+      <recent name="D:\source-code\IdeaProjects\LogBusETL\scripts\na" />
+      <recent name="D:\source-code\IdeaProjects\LogBusETL\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\source-code\IdeaProjects\LogBusETL" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LogBusETL">
+    <configuration name="DateTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DateTest" />
+      <module name="LogBusETL" />
+      <option name="PROGRAM_PARAMETERS" value="1527436800" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LogBusETL" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Convert" />
+      <module name="LogBusETL" />
+      <option name="PROGRAM_PARAMETERS" value="json src/json/2018-01-14_0 src/json/2018-01-14_0_cov" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LogBusETL_online" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Convert" />
+      <module name="LogBusETL" />
+      <option name="PROGRAM_PARAMETERS" value="online src/json/2018-05-17_online src/json/2018-05-17_online_cov" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DateTest2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LogBusETL" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DateTest2" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.LogBusETL_online" />
+      <item itemvalue="Application.LogBusETL" />
+      <item itemvalue="Application.DateTest" />
+      <item itemvalue="JUnit.DateTest2.test1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DateTest2.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration useDefault="false">C:\Users\LongShiLin\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="runUnderTerminal" value="true" />
+    <option name="UPDATE_DEPTH" value="empty" />
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\source-code\IdeaProjects\LogBusETL" />
+          <option name="myCopyRoot" value="D:\source-code\IdeaProjects\LogBusETL" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\source-code\IdeaProjects\LogBusETL\.idea" />
+          <option name="myCopyRoot" value="D:\source-code\IdeaProjects\LogBusETL\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\source-code\IdeaProjects\LogBusETL" />
+          <option name="myCopyRoot" value="D:\source-code\IdeaProjects\LogBusETL" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="137f820a-f119-4665-9027-e76043faded1" name="Default" comment="" />
+      <created>1524834048285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524834048285</updated>
+      <workItem from="1524834050280" duration="752000" />
+      <workItem from="1524834963897" duration="1105000" />
+      <workItem from="1525251180509" duration="23332000" />
+      <workItem from="1525353406078" duration="2674000" />
+      <workItem from="1525657648337" duration="4859000" />
+      <workItem from="1526269471354" duration="18363000" />
+      <workItem from="1527562533435" duration="10323000" />
+      <workItem from="1529394439177" duration="969000" />
+      <workItem from="1529662072727" duration="14000" />
+      <workItem from="1531837293602" duration="1864000" />
+      <workItem from="1532317952229" duration="468000" />
+      <workItem from="1532318645383" duration="1037000" />
+      <workItem from="1532319981142" duration="1705000" />
+      <workItem from="1532931817202" duration="394000" />
+      <workItem from="1534236223233" duration="6527000" />
+      <workItem from="1534324956435" duration="1830000" />
+    </task>
+    <task id="LOCAL-00001" summary="从idea中直接提交源代码">
+      <created>1524835810755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524835810755</updated>
+    </task>
+    <task id="LOCAL-00002" summary="从idea中直接提交源代码">
+      <created>1524836022156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524836022156</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新代码 基本上对所有代码又进行了一次重构">
+      <created>1525354183571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525354183571</updated>
+    </task>
+    <task id="LOCAL-00004" summary="对online事件的时间戳转换规则进行调整">
+      <created>1526962938898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526962938898</updated>
+    </task>
+    <task id="LOCAL-00005" summary="最后一版更新，主要对EU区域的时区做调整，涉及DateUtil.java">
+      <created>1529394686809</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1529394686809</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1529395352583</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529395352583</updated>
+    </task>
+    <task id="LOCAL-00007" summary="上传线上相关脚本文件（备份）[NA地区缺失]">
+      <created>1531882781982</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1531882781982</updated>
+    </task>
+    <task id="LOCAL-00008" summary="上传线上相关脚本文件（备份）[NA地区缺失]">
+      <created>1531882824391</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1531882824391</updated>
+    </task>
+    <task id="LOCAL-00009" summary="增加基础清洗json格式中错误的记录行方法">
+      <created>1534240427540</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534240427540</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DateTest2_test1 - 2018.05.29 at 19h 48m 34s.xml">
+      <configuration name="DateTest2.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest2_test1 - 2018.05.29 at 19h 54m 35s.xml">
+      <configuration name="DateTest2.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest2_test1 - 2018.05.29 at 19h 55m 04s.xml">
+      <configuration name="DateTest2.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest2_test1 - 2018.05.29 at 19h 56m 14s.xml">
+      <configuration name="DateTest2.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest2_test1 - 2018.05.29 at 19h 58m 35s.xml">
+      <configuration name="DateTest2.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest2_test1 - 2018.05.29 at 19h 58m 45s.xml">
+      <configuration name="DateTest2.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest2_test1 - 2018.05.29 at 20h 03m 52s.xml">
+      <configuration name="DateTest2.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest2_test1 - 2018.05.29 at 20h 04m 38s.xml">
+      <configuration name="DateTest2.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest2_test1 - 2018.05.29 at 20h 05m 47s.xml">
+      <configuration name="DateTest2.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateTest2_test1 - 2018.05.29 at 20h 36m 23s.xml">
+      <configuration name="DateTest2.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="76216000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="573" y="0" width="1842" height="1400" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32541567" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.28731343" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32861805" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29136977" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.3297062" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32861805" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6104513" visible="true" weight="0.32154882" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" sideWeight="0.20062695" side_tool="true" weight="0.19296375" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.3895487" side_tool="true" visible="true" weight="0.32154882" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" x="101" y="108" width="374" height="826" id="Documentation" order="9" side_tool="true" type="FLOATING" weight="0.3294621" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943925" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="4" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24483134" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32903716" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.3297062" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3264418" />
+      <window_info anchor="right" x="101" y="108" width="374" height="826" id="Documentation" order="0" side_tool="true" type="FLOATING" weight="0.3294621" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32861805" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79937303" visible="true" weight="0.14072494" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Structure" order="1" sideWeight="0.20062695" side_tool="true" weight="0.19296375" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943925" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="从idea中直接提交源代码" />
+    <MESSAGE value="更新代码 基本上对所有代码又进行了一次重构" />
+    <MESSAGE value="对online事件的时间戳转换规则进行调整" />
+    <MESSAGE value="最后一版更新，主要对EU区域的时区做调整，涉及DateUtil.java" />
+    <MESSAGE value="update" />
+    <MESSAGE value="上传线上相关脚本文件（备份）[NA地区缺失]" />
+    <MESSAGE value="增加基础清洗json格式中错误的记录行方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加基础清洗json格式中错误的记录行方法" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/eu/template.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-14_0">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="125">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/BaseConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/LevelConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/CreateConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/IncomeConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-01_charge_cov" />
+    <entry file="file://$PROJECT_DIR$/src/json/2018-03-01_login" />
+    <entry file="file://$PROJECT_DIR$/src/json/2018-03-01_login_cov" />
+    <entry file="file://$PROJECT_DIR$/src/json/2018-05-18_online" />
+    <entry file="file://$PROJECT_DIR$/src/json/2018-04-16_account" />
+    <entry file="file://$PROJECT_DIR$/src/json/2018-04-16_account_cov" />
+    <entry file="file://$PROJECT_DIR$/LogBusETL.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-01_account" />
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-01_login" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="677" column="16" selection-start-line="677" selection-start-column="16" selection-end-line="677" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/LoginConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/OnlineConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/2018-05-28_login">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret column="344" selection-start-column="334" selection-end-column="344" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DateTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/2018-05-28_login_cov">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/PropsConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/VipConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-16_account" />
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01_login" />
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-14_lottoActor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/ItemConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/ConsumeConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ConvertBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/ChargeConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="71" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="65" column="55" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/EventConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="47" column="90" lean-forward="true" selection-start-line="47" selection-start-column="90" selection-end-line="47" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/na/EventDaily.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/na/EventDailyHistory.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/na/templateHistory.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/eu/templateHistory.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/eu/EventDaily.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/eu/eventDaily.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="275">
+          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-16_0">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/eu/template.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/AccountConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-14_0">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="125">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-14_0_cov">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-14753" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/BaseConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>LogBusETL:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LogBusETL</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.gson:gson:2.2.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
