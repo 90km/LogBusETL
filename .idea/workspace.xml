@@ -46,7 +46,7 @@
       <file leaf-file-name="AccountConvert.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/etl/AccountConvert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="125">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
@@ -137,9 +137,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,12 +151,6 @@
               <item name="LogBusETL" type="b2602c69:ProjectViewProjectNode" />
               <item name="LogBusETL" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LogBusETL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LogBusETL" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="eu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LogBusETL" type="b2602c69:ProjectViewProjectNode" />
@@ -373,6 +367,7 @@
       <workItem from="1532931817202" duration="394000" />
       <workItem from="1534236223233" duration="6527000" />
       <workItem from="1534324956435" duration="1830000" />
+      <workItem from="1535377719314" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="从idea中直接提交源代码">
       <created>1524835810755</created>
@@ -473,14 +468,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76216000" />
+    <option name="totallyTimeSpent" value="76851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="573" y="0" width="1842" height="1400" extended-state="0" />
+    <frame x="265" y="123" width="1783" height="1128" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32541567" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -493,14 +488,15 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32861805" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6104513" visible="true" weight="0.32154882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6094854" visible="true" weight="0.33662218" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.20062695" side_tool="true" weight="0.19296375" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.3895487" side_tool="true" visible="true" weight="0.32154882" />
+      <window_info id="Favorites" order="6" sideWeight="0.39051464" side_tool="true" visible="true" weight="0.33662218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32541567" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -564,6 +560,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/BaseConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etl/AccountConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/eu/template.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -571,13 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/2018-01-14_0">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="125">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-14_0" />
     <entry file="file://$PROJECT_DIR$/src/main/java/etl/BaseConvert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -788,9 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/2018-01-16_0">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/eu/template.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -800,23 +801,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/etl/AccountConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="125">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/2018-01-14_0">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="125">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/2018-01-14_0_cov">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-14753" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-14_0" />
+    <entry file="file://$PROJECT_DIR$/src/json/2018-01-14_0_cov" />
     <entry file="file://$PROJECT_DIR$/src/main/java/etl/BaseConvert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
